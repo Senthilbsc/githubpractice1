@@ -1,0 +1,1 @@
+value locator('//table[@class="dataTable"]/tbody/tr[7]//td/child::a/parent::td/following-sibling::td[4]')

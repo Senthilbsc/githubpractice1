@@ -1,0 +1,341 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - link "Home" [ref=e6] [cursor=pointer]:
+        - /url: https://demo.guru99.com/
+      - link "Demo Site" [ref=e8] [cursor=pointer]:
+        - /url: https://demo.guru99.com/
+    - generic [ref=e11]:
+      - link:
+        - /url: https://guru99.link/recommends-zoho-projects-bugtracking-tool
+      - paragraph [ref=e12]:
+        - link "JIRA Top ADS" [ref=e13] [cursor=pointer]:
+          - /url: https://guru99.link/recommends-zoho-projects-bugtracking-tool
+          - img "JIRA Top ADS" [ref=e14]
+  - navigation [ref=e16]:
+    - list [ref=e19]:
+      - listitem [ref=e20]:
+        - link "Selenium" [ref=e21] [cursor=pointer]:
+          - /url: "#"
+          - text: Selenium
+      - listitem
+      - listitem [ref=e23]:
+        - link "Insurance Project" [ref=e24] [cursor=pointer]:
+          - /url: http://demo.guru99.com/insurance/v1/index.php
+      - listitem [ref=e25]:
+        - link "Agile Project" [ref=e26] [cursor=pointer]:
+          - /url: http://demo.guru99.com/Agile_Project/Agi_V1/
+      - listitem [ref=e27]:
+        - link "Bank Project" [ref=e28] [cursor=pointer]:
+          - /url: "#"
+          - text: Bank Project
+      - listitem [ref=e30]:
+        - link "Security Project" [ref=e31] [cursor=pointer]:
+          - /url: http://demo.guru99.com/Security/SEC_V1/index.php
+      - listitem
+      - listitem [ref=e32]:
+        - link "Telecom Project" [ref=e33] [cursor=pointer]:
+          - /url: http://demo.guru99.com/telecom/index.html
+      - listitem [ref=e34]:
+        - link "Payment Gateway Project" [ref=e35] [cursor=pointer]:
+          - /url: http://demo.guru99.com/payment-gateway/index.php
+      - listitem [ref=e36]:
+        - link "New Tours" [ref=e37] [cursor=pointer]:
+          - /url: http://demo.guru99.com/test/newtours/
+      - listitem [ref=e38]:
+        - link "SEO" [ref=e39] [cursor=pointer]:
+          - /url: "#"
+          - text: SEO
+  - generic:
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: Top Gainers
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - text: BSE |
+              - link "NSE" [ref=e48] [cursor=pointer]:
+                - /url: "#"
+            - img [ref=e50]
+        - generic [ref=e51]: "Last updated: 11 Dec, 13:51"
+      - generic [ref=e53]:
+        - heading "Gainers" [level=2] [ref=e54]
+        - link "Daily" [ref=e56] [cursor=pointer]:
+          - /url: "#"
+        - link "Weekly" [ref=e58] [cursor=pointer]:
+          - /url: "#"
+        - link "Monthly" [ref=e60] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e61]:
+        - heading "Losers" [level=2] [ref=e62]
+        - link "Daily" [ref=e64] [cursor=pointer]:
+          - /url: "#"
+        - link "Weekly" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+        - link "Monthly" [ref=e68] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e69]:
+        - link "All" [ref=e70] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - strong [ref=e71]: Group A |
+        - link "Group B" [ref=e72] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Group M" [ref=e73] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Group T" [ref=e74] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Group MT" [ref=e75] [cursor=pointer]:
+          - /url: "#"
+        - text: "|"
+        - link "Group Z" [ref=e76] [cursor=pointer]:
+          - /url: "#"
+      - table [ref=e78]:
+        - rowgroup [ref=e79]:
+          - row "Company Group Prev Close (Rs) Current Price (Rs) % Change" [ref=e80]:
+            - cell "Company" [ref=e81]
+            - cell "Group" [ref=e82]
+            - cell "Prev Close (Rs)" [ref=e83]
+            - cell "Current Price (Rs)" [ref=e84]
+            - cell "% Change" [ref=e85]
+        - rowgroup [ref=e86]:
+          - row "IIFL Holdings A 791.3 159.9 + 9.9" [ref=e87]:
+            - cell "IIFL Holdings" [ref=e88]:
+              - link "IIFL Holdings" [ref=e89] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e90]
+            - cell "791.3" [ref=e91]
+            - cell "159.9" [ref=e92]
+            - cell "+ 9.9" [ref=e93]
+          - row "Coffee Day Enterpris A 374.2 162 + 9.1" [ref=e94]:
+            - cell "Coffee Day Enterpris" [ref=e95]:
+              - link "Coffee Day Enterpris" [ref=e96] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e97]
+            - cell "374.2" [ref=e98]
+            - cell "162" [ref=e99]
+            - cell "+ 9.1" [ref=e100]
+          - row "JK Tyre & Industries A 233.7 740.6 + 5.1" [ref=e101]:
+            - cell "JK Tyre & Industries" [ref=e102]:
+              - link "JK Tyre & Industries" [ref=e103] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e104]
+            - cell "233.7" [ref=e105]
+            - cell "740.6" [ref=e106]
+            - cell "+ 5.1" [ref=e107]
+          - row "Kansai Nerolac Paint A 24.8 653.5 + 6.2" [ref=e108]:
+            - cell "Kansai Nerolac Paint" [ref=e109]:
+              - link "Kansai Nerolac Paint" [ref=e110] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e111]
+            - cell "24.8" [ref=e112]
+            - cell "653.5" [ref=e113]
+            - cell "+ 6.2" [ref=e114]
+          - row "Quess Corp A 513 564.3 + 2" [ref=e115]:
+            - cell "Quess Corp" [ref=e116]:
+              - link "Quess Corp" [ref=e117] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e118]
+            - cell "513" [ref=e119]
+            - cell "564.3" [ref=e120]
+            - cell "+ 2" [ref=e121]
+          - row "Mangalore Refine A 505 372.1 + 5.8" [ref=e122]:
+            - cell "Mangalore Refine" [ref=e123]:
+              - link "Mangalore Refine" [ref=e124] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e125]
+            - cell "505" [ref=e126]
+            - cell "372.1" [ref=e127]
+            - cell "+ 5.8" [ref=e128]
+          - row "Corporation Bank A 739.8 470.5 + 3.1" [ref=e129]:
+            - cell "Corporation Bank" [ref=e130]:
+              - link "Corporation Bank" [ref=e131] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e132]
+            - cell "739.8" [ref=e133]
+            - cell "470.5" [ref=e134]
+            - cell "+ 3.1" [ref=e135]
+          - row "Colgate Palm. A 816 988 + 5.1" [ref=e136]:
+            - cell "Colgate Palm." [ref=e137]:
+              - link "Colgate Palm." [ref=e138] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e139]
+            - cell "816" [ref=e140]
+            - cell "988" [ref=e141]
+            - cell "+ 5.1" [ref=e142]
+          - row "Kirloskar Oil Engine A 497.6 437.7 + 3.6" [ref=e143]:
+            - cell "Kirloskar Oil Engine" [ref=e144]:
+              - link "Kirloskar Oil Engine" [ref=e145] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e146]
+            - cell "497.6" [ref=e147]
+            - cell "437.7" [ref=e148]
+            - cell "+ 3.6" [ref=e149]
+          - row "Time Technoplast Ltd A 287.3 36.1 + 9" [ref=e150]:
+            - cell "Time Technoplast Ltd" [ref=e151]:
+              - link "Time Technoplast Ltd" [ref=e152] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e153]
+            - cell "287.3" [ref=e154]
+            - cell "36.1" [ref=e155]
+            - cell "+ 9" [ref=e156]
+          - row "UCO Bank A 37.1 812.3 + 7.6" [ref=e157]:
+            - cell "UCO Bank" [ref=e158]:
+              - link "UCO Bank" [ref=e159] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e160]
+            - cell "37.1" [ref=e161]
+            - cell "812.3" [ref=e162]
+            - cell "+ 7.6" [ref=e163]
+          - row "Max Financial Servic A 947.1 141 + 3.6" [ref=e164]:
+            - cell "Max Financial Servic" [ref=e165]:
+              - link "Max Financial Servic" [ref=e166] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e167]
+            - cell "947.1" [ref=e168]
+            - cell "141" [ref=e169]
+            - cell "+ 3.6" [ref=e170]
+          - row "Jain Irrigation A 128.9 497.3 + 2.2" [ref=e171]:
+            - cell "Jain Irrigation" [ref=e172]:
+              - link "Jain Irrigation" [ref=e173] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e174]
+            - cell "128.9" [ref=e175]
+            - cell "497.3" [ref=e176]
+            - cell "+ 2.2" [ref=e177]
+          - row "Deepak Fertilisers A 974.4 670.6 + 3.4" [ref=e178]:
+            - cell "Deepak Fertilisers" [ref=e179]:
+              - link "Deepak Fertilisers" [ref=e180] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e181]
+            - cell "974.4" [ref=e182]
+            - cell "670.6" [ref=e183]
+            - cell "+ 3.4" [ref=e184]
+          - row "GRUH Finance Li A 19 187.6 + 8.9" [ref=e185]:
+            - cell "GRUH Finance Li" [ref=e186]:
+              - link "GRUH Finance Li" [ref=e187] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e188]
+            - cell "19" [ref=e189]
+            - cell "187.6" [ref=e190]
+            - cell "+ 8.9" [ref=e191]
+          - row "Punj. NationlBak A 713 866.6 + 8.4" [ref=e192]:
+            - cell "Punj. NationlBak" [ref=e193]:
+              - link "Punj. NationlBak" [ref=e194] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e195]
+            - cell "713" [ref=e196]
+            - cell "866.6" [ref=e197]
+            - cell "+ 8.4" [ref=e198]
+          - row "Deepak Fertilisers A 190.1 287 + 8.7" [ref=e199]:
+            - cell "Deepak Fertilisers" [ref=e200]:
+              - link "Deepak Fertilisers" [ref=e201] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e202]
+            - cell "190.1" [ref=e203]
+            - cell "287" [ref=e204]
+            - cell "+ 8.7" [ref=e205]
+          - row "Mangalore Refine A 803.1 188.5 + 8.8" [ref=e206]:
+            - cell "Mangalore Refine" [ref=e207]:
+              - link "Mangalore Refine" [ref=e208] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e209]
+            - cell "803.1" [ref=e210]
+            - cell "188.5" [ref=e211]
+            - cell "+ 8.8" [ref=e212]
+          - row "Navkar Corporation L A 317.7 544 + 7.1" [ref=e213]:
+            - cell "Navkar Corporation L" [ref=e214]:
+              - link "Navkar Corporation L" [ref=e215] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e216]
+            - cell "317.7" [ref=e217]
+            - cell "544" [ref=e218]
+            - cell "+ 7.1" [ref=e219]
+          - row "GRUH Finance Li A 530.8 579 + 6.3" [ref=e220]:
+            - cell "GRUH Finance Li" [ref=e221]:
+              - link "GRUH Finance Li" [ref=e222] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e223]
+            - cell "530.8" [ref=e224]
+            - cell "579" [ref=e225]
+            - cell "+ 6.3" [ref=e226]
+          - row "Deepak Fertilisers A 235.6 337.8 + 3.3" [ref=e227]:
+            - cell "Deepak Fertilisers" [ref=e228]:
+              - link "Deepak Fertilisers" [ref=e229] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e230]
+            - cell "235.6" [ref=e231]
+            - cell "337.8" [ref=e232]
+            - cell "+ 3.3" [ref=e233]
+          - row "IDFC Bank A 764 455.9 + 2.9" [ref=e234]:
+            - cell "IDFC Bank" [ref=e235]:
+              - link "IDFC Bank" [ref=e236] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e237]
+            - cell "764" [ref=e238]
+            - cell "455.9" [ref=e239]
+            - cell "+ 2.9" [ref=e240]
+          - row "BEML Ltd. A 986.7 228.6 + 9.6" [ref=e241]:
+            - cell "BEML Ltd." [ref=e242]:
+              - link "BEML Ltd." [ref=e243] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e244]
+            - cell "986.7" [ref=e245]
+            - cell "228.6" [ref=e246]
+            - cell "+ 9.6" [ref=e247]
+          - row "Hind. Petrol A 378.1 489.5 + 9.4" [ref=e248]:
+            - cell "Hind. Petrol" [ref=e249]:
+              - link "Hind. Petrol" [ref=e250] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e251]
+            - cell "378.1" [ref=e252]
+            - cell "489.5" [ref=e253]
+            - cell "+ 9.4" [ref=e254]
+          - row "PI Industries A 671.1 426.8 + 4.7" [ref=e255]:
+            - cell "PI Industries" [ref=e256]:
+              - link "PI Industries" [ref=e257] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e258]
+            - cell "671.1" [ref=e259]
+            - cell "426.8" [ref=e260]
+            - cell "+ 4.7" [ref=e261]
+          - row "Dewan Housing A 245.3 719.1 + 10" [ref=e262]:
+            - cell "Dewan Housing" [ref=e263]:
+              - link "Dewan Housing" [ref=e264] [cursor=pointer]:
+                - /url: http://demo.guru99.com/
+            - cell "A" [ref=e265]
+            - cell "245.3" [ref=e266]
+            - cell "719.1" [ref=e267]
+            - cell "+ 10" [ref=e268]
+      - paragraph [ref=e269]:
+        - text: © Copyright - Demo Guru99 2025
+        - link [ref=e270] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/guru99/
+          - img [ref=e271]
+        - link [ref=e272] [cursor=pointer]:
+          - /url: https://www.facebook.com/Guru99Official
+          - img [ref=e273]
+        - link [ref=e274] [cursor=pointer]:
+          - /url: https://twitter.com/guru99com
+          - img [ref=e275]
+        - link [ref=e276] [cursor=pointer]:
+          - /url: https://www.guru99.com/newsletters.html
+          - img [ref=e277]
+      - generic [ref=e278]:
+        - link:
+          - /url: https://guru99.live/umr9yl
+        - paragraph [ref=e279]:
+          - link "Random Image" [ref=e280] [cursor=pointer]:
+            - /url: https://guru99.live/umr9yl
+            - img "Random Image" [ref=e281]
+    - generic [ref=e283]:
+      - heading [level=2]:
+        - link:
+          - /url: http://demo.guru99.com
+```
