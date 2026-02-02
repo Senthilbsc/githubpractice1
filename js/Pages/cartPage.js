@@ -31,7 +31,7 @@ export class CartPage
         await this.postalCode.fill('600100')
         await this.continueBtn.click()
         await this.page.waitForTimeout(3000)
-        await this.page.screenshot({path: "C:/Users/Senthil/PLAYWRIGHT/tests/images" + 'checkoutPage.png'})   
+        await this.page.screenshot({path: "C:/Users/Senthil/PLAYWRIGHT/githubpractice1/js/tests/images" + 'checkoutPage.png'})   
         
     }     
     

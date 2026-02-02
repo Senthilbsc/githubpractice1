@@ -1,9 +1,9 @@
 //
-import {test, expert} from "@playwright/test"
+import {test, expect} from "@playwright/test"
 import { LoginPage } from "../Pages/loginPage"
 import { saucedemo } from "./utils/testData"
 const {HomePage} = require ('../Pages/homePage')
-const {CartPage} = require ('../Pages/cartPage')
+const {CartPage} = require ('../pages/cartPage')
 
 test ("Page Object Model" , async ({page})=>{
 
