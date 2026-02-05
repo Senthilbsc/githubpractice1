@@ -1,42 +1,38 @@
-    //BUILT IN LOCATORS
+//BUILT IN LOCATORS
 
-    import {test , except, expect} from "@playwright/test"
+import {test, expect} from "@playwright/test"
 
-    test("Orange HRM", async ({page})=>{
+test("Orange HRM", async ({page})=>{
 
-    //Lauch browser
-    await page.goto ('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+//Lauch browser
+await page.goto ('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-    //ALT TEXT
-    let orangeLogo = await page.getByAltText('company-branding')
-    await expect(orangeLogo).toBeVisible()
-    
-    //PLACE HOLDER
-    await page.getByPlaceholder('Username').fill('admin')
-    await page.getByPlaceholder('Password').fill('admin123')
+//ALT TEXT
+let orangeLogo = await page.getByAltText('company-branding')
+await expect(orangeLogo).toBeVisible()
+ 
+//PLACE HOLDER
+await page.getByPlaceholder('Username').fill('admin')
+await page.getByPlaceholder('Password').fill('admin123')
 
-    //ROLE
-    await page.getByRole('button' ,{name : " Login " }).click()
+//ROLE
+await page.getByRole('button' ,{name : " Login " }).click()
 
-    //TEXT
-    let Username = await page.locator('[class="oxd-userdropdown-name"]').textContent()
-    console.log("User Name:", await Username.trim())
-    
+//TEXT
+let Username = await page.locator('[class="oxd-userdropdown-name"]').textContent()
+console.log("User Name:", await Username.trim())
 
-    await expect (await page.getByText(Username)).toBeVisible()
-    
-    //Label
+await expect (await page.getByText(Username)).toBeVisible()
 
-    await expect(await page.getByLabel('Sidepanel')).toBeVisible()
-    await page.waitForTimeout(3000)
+//Label
 
-    //Title
-    await page.getByTitle('Help').click()
+await expect(await page.getByLabel('Sidepanel')).toBeVisible()
 
-    //Test Id
+//Title
+await page.getByTitle('Help').click()
 
-    //Refer from playwright.dev website
+//Test Id
 
-    })
+//Refer from playwright.dev website
 
-    
+})
