@@ -20,6 +20,11 @@ await expect( await page.locator('[id="user-name"]')).toBeEditable()
 await page.click('[value="Login"]')
 await page.waitForTimeout(2000)
 
+//Feature: Login
+//  Scenario: Successful login
+//    Given I am on the login page
+//    When I enter valid credentials
+//    Then I should see the dashboard
 
 let productText = await page.$$('//div[@class="inventory_list"]//div[2]//div//a//div')
 
