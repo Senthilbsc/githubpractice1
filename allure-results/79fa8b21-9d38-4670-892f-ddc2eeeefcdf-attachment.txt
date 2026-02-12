@@ -1,1 +1,0 @@
-value locator('//table/tbody/tr/td[1]/child::a[contains(text(),"Sun Pharma.")]/parent::td/following-sibling::td[4]/child::font')
