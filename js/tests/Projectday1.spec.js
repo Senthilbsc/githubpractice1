@@ -1,5 +1,4 @@
 import{test, except} from "@playwright/test"
-import { Console } from "console"
 test ("Handling Login", async function ({page}) {
   
 //Launch Browser

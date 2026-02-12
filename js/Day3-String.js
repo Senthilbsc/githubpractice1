@@ -67,18 +67,18 @@ console.log(str.charAt(5))
 
 //SPLIT
 var str = "JAVASCRIPT PROGRAMMING"
-console.log(str.split(" "))
-console.log(str.split( ))
+console.log(str.split(" ")) // ["JAVASCRIPT", "PROGRAMMING"]
+console.log(str.split( )) // ["JAVASCRIPT", "PROGRAMMING"]
 
 //trim
 var str = " Javascript with Playwright "    
-console.log(str.trim()) 
-console.log(str.trimEnd())
-console.log(str.trimStart())
+console.log(str.trim()) //  "Javascript with Playwright"
+console.log(str.trimEnd()) // " Javascript with Playwright"
+console.log(str.trimStart())// "Javascript with Playwright "    
 
 //REPEAT
 var str = "JavaScript "
-console.log(str.repeat(5)) 
+console.log(str.repeat(3)) // JavaScript JavaScript JavaScript
 
 //PADEND
 var str = "Rs.786"
@@ -88,3 +88,14 @@ console.log(str.padEnd(10,'123456789'))
 //PADSTART
 
 console.log(str.padStart(10,'123456789'))    
+
+
+//reverse
+var str = "WELCOME TO WIPRO"
+var a = str.split("").reverse().join("")
+console.log(a) // ORPIW OT EMOCLEW
+
+
+
+
+//table//tbody//tr[3]//td[text()='Firefox']//following-sibling::td[1]
